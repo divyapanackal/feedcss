@@ -60,6 +60,7 @@ export const Wrapper = styled.section`
     }
     .txt-grey {
         color: #6c757d;
+        font-size: 14px;
     } 
     .btn-primary {
         background: #0b579a;

@@ -37,7 +37,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/pournami.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "Chart.js"]
@@ -70,7 +70,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/priya.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["HTML", "SEO", "AMP", "HTML 5", "XML", "GIT"]
@@ -108,7 +108,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/mahima.jpg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "Chart.js"]
@@ -141,7 +141,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/ann.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "Chart.js"]
@@ -174,7 +174,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/divya.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT"]
@@ -184,7 +184,7 @@
       "first": "Shahina",
       "last": "Anvar"
     },
-    "userId": "divyap",
+    "userId": "shahina",
     "employeeID": "1549",
     "designation": "Associate Principal Engineer",
     "grade": "D2",
@@ -207,7 +207,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/shahina.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular"]
@@ -240,7 +240,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/ananya.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
@@ -273,7 +273,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/aswathy.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
@@ -290,7 +290,7 @@
     "stream": "HTML5",
     "dob": "Aug 13, 1995",
     "hiredOn": "Aug 17, 2021",
-    "email": " karthikam@qburst.com",
+    "email": " kannan.k@qburst.com",
     "phone": "9497389625",
     "address": {
       "street": "Kazhakootam",
@@ -306,7 +306,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Male",
     "portrait": "/src/assets/avatar/kannan.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
@@ -339,7 +339,7 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Male",
     "portrait": "/src/assets/avatar/praveen.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
@@ -372,8 +372,41 @@
       }
     ],
     "department": "Development",
-    "gender": "female",
+    "gender": "Female",
     "portrait": "/src/assets/avatar/pulari.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
+  },
+  {
+    "name": {
+      "first": "Karthika",
+      "last": "Mohanachandran"
+    },
+    "userId": "karthikam",
+    "employeeID": "2482",
+    "designation": "Lead Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "April 17, 1996",
+    "hiredOn": "Mar 02, 15",
+    "email": " karthikam@qburst.com",
+    "phone": "9497389625",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "Emmar",
+        "name": "HTML Developer T&M (100%)",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "Female",
+    "portrait": "/src/assets/avatar/karthika.jpeg",
     "virtualTeam": "Trivandrum",
     "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
   }

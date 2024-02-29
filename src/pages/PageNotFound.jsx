@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
+import LandingHeader from '../layouts/LandingLayout/LandingHeader'
+import LandingFooter from '../layouts/LandingLayout/LandingFooter'
+import notFoundImg from '../assets/404.svg'
 
 const Wrapper = styled.section`
-  max-width:40%;
-  margin: 0 auto;
-  box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  max-width:40%; 
+  margin: 80px auto 0 auto;
   padding: 30px;
   text-align: center;
   
@@ -20,21 +22,28 @@ const Wrapper = styled.section`
   a {
     color: #fff;
     font-size: 20px;
-    background: #066ac9;
-    padding: 5px 20px;
+    background: #0b579a;
+    padding: 10px 48px;
     display: inline-block;
     border-radius: 8px;
+  }
+  img {
+    width: 100%;
+    max-width: 400px;
   }
 `
 
 const PageNotFound = () => {
   return (
-    <Wrapper>
-      <h1>404</h1>
-      <p>The page you're looking for is not found.</p>
-      <Link to={`/home`} >Home</Link>
-
-    </Wrapper>
+    <>
+      <LandingHeader />
+      <Wrapper>
+        <img src={notFoundImg} alt="404" />
+        <p>The page you're looking for is not found.</p>
+        <Link to={`/home`} >Home</Link>
+      </Wrapper>
+      <LandingFooter />
+    </>
   )
 }
 

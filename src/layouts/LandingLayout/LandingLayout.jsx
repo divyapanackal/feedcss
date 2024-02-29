@@ -1,7 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import { styled } from 'styled-components'
-import Team from '../../pages/Team/Team'
 import LandingFooter from './LandingFooter'
 import LandingHeader from './LandingHeader'
 
