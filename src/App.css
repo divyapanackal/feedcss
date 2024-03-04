@@ -49,3 +49,33 @@
   max-width: 1320px;
   margin: 0 auto;
 }
+
+/*Modal*/
+
+.modal {
+  position: fixed;
+  left: calc(50% - 300px);
+  right: auto;
+  padding: 30px;
+  border: 0;
+  max-width: 600px;
+  width: 100%;
+  top: 20%;
+  border-radius: 10px;
+}
+.dialog-close-btn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background: transparent;
+  border: 0;
+  padding-right: 0;
+  outline: none;
+}
+.dialog-close-btn:focus, .dialog-close-btn:focus-visible {
+  outline: none;
+
+}
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.59);
+}
