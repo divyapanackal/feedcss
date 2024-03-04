@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import { RouterProvider, createBrowserRouter, useNavigate } from 'react-router-dom'
 import EntryLayout from '../layouts/EntryLayout/EntryLayout';
 import LandingLayout from '../layouts/LandingLayout/LandingLayout';
-import About from '../pages/About/About';
 import Team from '../pages/Team/Team';
 import PageNotFound from '../pages/PageNotFound';
 import TeamDetails from '../pages/TeamDetails/TeamDetails';
@@ -27,11 +26,6 @@ const TeamRoutes = () => {
             element: <BaseNavigation />
         },
         {
-            path: 'login',
-            element: <EntryLayout />
-        },
-
-        {
             path: 'home',
             element: <LandingLayout />,
             children: [
@@ -39,10 +33,6 @@ const TeamRoutes = () => {
                 path: '',
                 element: <Team />
             }, 
-            {
-                path: 'about',
-                element: <About />
-            },
             {
                 path:'team/:profileId',
                 element: <TeamDetails />

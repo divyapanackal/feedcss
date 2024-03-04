@@ -66,12 +66,28 @@ export const Wrapper = styled.section`
         background: #0b579a;
         color: #fff;
         border-radius: 5px;
-    padding: 10px 20px;
-    font-weight: normal;
+        padding: 10px 20px;
+        font-weight: normal;
     }
     h2 {
         font-weight: 400;
-        margin-bottom: 25px;
+    }
+
+`
+
+export const TitleArea = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    button {
+        background: #0b579a;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-weight: normal;
+        outline: none;
     }
 
 `
